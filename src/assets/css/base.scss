@@ -1,0 +1,12 @@
+/* 通用样式设置 */
+
+$fontColor: #222;
+$bgColor: #000;
+
+.clearfix{
+  &::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
